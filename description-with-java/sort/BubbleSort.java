@@ -1,5 +1,3 @@
-import com.sun.org.apache.bcel.internal.generic.ARETURN;
-
 /**
  * Created by atyongsi@163.com on 2020/8/9
  */
@@ -36,9 +34,8 @@ public class BubbleSort {
         int array[] = {4, 7, 2, 8, 6, 2, 9, 0};
 
         int[] sortedArr = BubbleSort.bubbleSort(array, array.length);
-
         for (int i : sortedArr) {
-            System.out.print(i+",");
+            System.out.print(i + " ");
         }
     }
 }
